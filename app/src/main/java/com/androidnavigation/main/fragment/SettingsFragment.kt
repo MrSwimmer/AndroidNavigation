@@ -1,7 +1,7 @@
 package com.androidnavigation.main.fragment
 
+import android.app.Fragment
 import android.os.Bundle
-import android.support.v4.app.Fragment
 import android.support.v4.app.FragmentManager
 import android.view.ViewGroup
 import android.view.LayoutInflater

@@ -15,7 +15,7 @@ class IntroFragment : Fragment() {
         val view = inflater.inflate(R.layout.fragment_intro, container, false)
         view.helloButton.setOnClickListener({
             fragmentManager!!
-                    .beginTransaction()
+            .beginTransaction()
                     .replace(R.id.container, SignInFragment())
                     .commit()
         })
